@@ -1,0 +1,20 @@
+{
+  "name": "fake-squids",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "repository": "git@github.com:nadermokhtar/fake-squids.git",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "author": "Nader Mokhtar",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
